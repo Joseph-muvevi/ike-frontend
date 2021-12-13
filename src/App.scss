@@ -1,0 +1,12 @@
+@import "./components/sass/__button.scss";
+@import"./components/sass/__colors.scss";
+
+button{
+	border-radius: $button-radius;
+	background-color: $primary-color;
+	color: white;
+	font-family: Monda;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+}

@@ -1,0 +1,34 @@
+.navbar {
+  background-color: white;
+  color: black;
+  filter: drop-shadow(2px 4px 6px #ccc);
+  width: 100vw;
+  height: 70px;
+}
+
+.navbar-container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-left {
+  width: 30%;
+  font-size: 40px;
+  color: brown;
+}
+
+.navbar-right {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=Navbar.css.map */
