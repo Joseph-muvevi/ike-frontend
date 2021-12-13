@@ -25,6 +25,18 @@
   align-items: flex-start;
 }
 
+.banner-h3 {
+  font-family: Monda;
+  font-size: 35px;
+  padding: 0%;
+}
+
+.banner-p {
+  font-family: Monda;
+  font-size: 20px;
+  padding: 0%;
+}
+
 .banner-button {
   width: 150px;
 }

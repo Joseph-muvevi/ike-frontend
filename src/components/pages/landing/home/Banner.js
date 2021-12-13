@@ -7,12 +7,12 @@ const Banner = () => {
 		<div className="banner">
 			<div className="banner-container">
 				<div className="banner-left">
-					<h3 className="banner-h3">
+					<p className="banner-h3">
 						{
 							banner &&
 							banner.header
 						}
-					</h3>
+					</p>
 					<p className="banner-p">
 						{
 							banner &&
