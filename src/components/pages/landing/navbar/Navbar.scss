@@ -4,7 +4,6 @@
 	background-color: white;
 	color: black;
 	filter: $filter;
-	width: 100vw;
 	height: 70px;
 }
 
@@ -19,14 +18,14 @@
 
 
 .navbar-left{
-	width: 30%;
+	width: 29%;
 	font-size: 40px;
 	color: brown;
 
 }
 
 .navbar-right{
-	width: 70%;
+	width: 69%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -35,4 +34,5 @@
 .nav-items{
 	text-decoration: none;
 	color: black;
+
 }

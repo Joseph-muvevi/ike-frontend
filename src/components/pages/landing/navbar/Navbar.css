@@ -2,7 +2,6 @@
   background-color: white;
   color: black;
   filter: drop-shadow(2px 4px 6px #ccc);
-  width: 100vw;
   height: 70px;
 }
 
@@ -16,13 +15,13 @@
 }
 
 .navbar-left {
-  width: 30%;
+  width: 29%;
   font-size: 40px;
   color: brown;
 }
 
 .navbar-right {
-  width: 70%;
+  width: 69%;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,0 +1,264 @@
+@import "../../../sass/_colors";
+@import "../../../sass/_shadow";
+
+//=========BANNER HEADER==========
+.banner{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.534), rgba(255, 255, 255, 0.548)), url(../../../../assets/images/computer.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.banner-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 85vw;
+	margin: auto;
+}
+
+.banner-left{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.banner-button{
+	width: 150px;
+}
+
+
+
+
+.banner-right{
+	width: 50%;
+}
+
+.banner-right-image{
+	width: 90%;
+	height: 60vh;
+	border-radius: 10px;
+}
+
+// =========SECTION 2==========
+.section-2{
+	min-height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+.section-2-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 85vw;
+	margin: auto;
+}
+
+.section-2-upper{
+	flex-direction: column;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 30vh;
+}
+
+.section-2-h5{
+	font-family: Monda;
+	font-size: 25px;
+	padding: 0%;
+}
+
+.section-2-h3{
+	font-family: Monda;
+	font-size: 40px;
+	color: $primary-color;
+	padding: 0%;
+	line-height: 90%;
+	margin-top: 2vh;
+	height: 35px;
+}
+
+.section-2-h4{
+	font-family: Monda;
+	font-size: 18px;
+	padding: 0%;
+	width: 90%;
+	margin: 2vh auto;
+}
+
+.section-2-lower{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.cards{
+	width: 420px;
+	height: 300px;
+	margin: 30px auto;
+	border-radius: 10px;
+	box-shadow: $box-shadow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	background-color: $background-color;
+	font-family: Monda;
+}
+
+.card-icons{
+	font-size: 50px;
+}
+
+// =========SECTION 3============
+.section-3{
+	min-height: 90vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-color;
+}
+
+.section-3-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 85vw;
+	margin: auto;
+}
+
+.section-3-upper{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.section-5-upper-h5{
+	font-family: Monda;
+	font-size: 25px;
+	padding: 0%;
+	font-weight: 600;
+}
+
+.section-5-upper-h4{
+	font-family: Monda;
+	font-size: 30px;
+	color: $primary-color;
+	padding: 0%;
+	font-weight: 800;
+}
+
+.section-5-upper-p{
+	font-family: Monda;
+	font-size: 16px;
+	padding: 0%;
+}
+
+.section-3-lower{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.cards-medium{
+	width: auto;
+	height: 150px;
+	margin: 30px 10px;
+	border-radius: 10px;
+	box-shadow: $box-shadow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 7px;
+	font-family: Monda;
+	background-color: white;
+}
+
+
+.section-3-image{
+	width: 42.5vw;
+	height: 55vh;
+	border-radius: 10px;
+	box-shadow: $box-shadow;
+}
+
+.cards-medium{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 20px;
+}
+
+.cards-small-font{
+	line-height: 0%;
+}
+
+.cards-small-number{
+	line-height: 0%;
+	font-size: 20px;
+	color: $primary-color;
+}
+
+// ========SECTION 4========
+.section-4{
+	background-image: url(../../../../assets/images/desktop2.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-4-container{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 85vw;
+	margin: auto;
+	color: white
+}
+
+.section-4-h5{
+	font-family: Monda;
+	font-size: 30px;
+	padding: 0%;
+	font-weight: 600;
+}
+
+.section-4-h4{
+	font-family: Monda;
+	font-size: 40px;
+	color: $primary-color;
+	padding: 0%;
+	font-weight: 800;
+}
+
+.section-4-p{
+	font-family: Monda;
+	font-size: 25px;
+	padding: 0%;
+}
